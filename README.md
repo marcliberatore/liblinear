@@ -8,7 +8,7 @@ http://www.csie.ntu.edu.tw/~cjlin/liblinear/
 Why Fork?
 ---------
 
-I needed to make source-level modifications. In particular, I wanted to optimize parameters using measures other than accuracy.
+I needed to make source-level modifications. In particular, I wanted to optimize parameters using measures other than accuracy. The current version uses F-Score: 2 * Precision * Recall / (Precision + Recall).
 
 
 Additional Documentation
